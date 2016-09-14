@@ -1,0 +1,78 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+div {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.tic-tac-toe {
+	height: 320px;
+	margin: 60px auto;
+	width: 320px;
+}
+
+	.tic-tac-toe .row {
+		
+	}
+	
+		.tic-tac-toe .row .cell {
+		    border: #000000 5px solid;
+		    float: left;
+		    font-size: 100px;
+		    height: 100px;
+		    line-height: 100px;
+		    position: relative;
+		    text-align: center;
+		    width: 100px;
+			-webkit-user-select: none;  /* Chrome all / Safari all */
+			-moz-user-select: none;     /* Firefox all */
+			-ms-user-select: none;      /* IE 10+ */
+			user-select: none;          /* Likely future */ 
+		}
+		
+		.tic-tac-toe .row .cell:not(:empty) {
+			background: #f9f9f9;
+			cursor: no-drop;
+		}
+		
+		.tic-tac-toe .row .cell:hover:empty {
+			background: #aaffaa;
+			cursor: pointer;
+		}
+		
+		.tic-tac-toe .row .cell:hover {
+			cursor: no-drop;
+		}
+		
+		.tic-tac-toe .row .cell:first-child {
+			border-left: none;
+		}
+		
+		.tic-tac-toe .row .cell:last-child {
+			border-right: none;
+		}
+		
+		.tic-tac-toe .row:first-child .cell {
+			border-top: none;
+		}
+		
+		.tic-tac-toe .row:last-child .cell {
+			border-bottom: none;
+		}
+		
+.options {
+    list-style: outside none none;
+    margin: auto;
+    text-align: center;
+    width: 320px;
+    padding: 0;
+}
+
+.button-status {
+	
+}
