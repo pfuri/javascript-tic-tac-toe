@@ -109,8 +109,8 @@ $(document).ready(function () {
 	$('.cell').click(function (e) {		
 		if ($(this).is(':empty')) {
 			// send move to the state
-			var x = $(this).parent().index();
-			var y = $(this).index();
+			var x = $(this).index();
+			var y = $(this).parent().index();
 			var letterToPlace = state.turn;
 			if (state.move(x, y)) {
 				$(this).html(letterToPlace);

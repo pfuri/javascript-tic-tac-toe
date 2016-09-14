@@ -4,12 +4,6 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-div {
-	border: none;
-	padding: 0;
-	margin: 0;
-}
-
 .tic-tac-toe {
 	height: 320px;
 	margin: 60px auto;
@@ -71,8 +65,4 @@ div {
     text-align: center;
     width: 320px;
     padding: 0;
-}
-
-.button-status {
-	
 }
